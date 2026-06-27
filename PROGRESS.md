@@ -8,17 +8,17 @@
   - [x] [API getting started](https://docs.anthropic.com/en/api/getting-started)
   - [x] [Tool use overview](https://docs.anthropic.com/en/docs/build-with-claude/tool-use)
   - [-] [Messages API reference](https://docs.anthropic.com/en/api/messages)
-- [] **Day 2: Claude API** — Build the agentic loop — the control flow engine
+- [x] **Day 2: Claude API** — Build the agentic loop — the control flow engine
   - [x] [Implementing tool use — the full loop](https://docs.anthropic.com/en/docs/build-with-claude/tool-use#how-tool-use-works)
   - [-] [Anthropic cookbook — agent notebook](https://github.com/anthropics/anthropic-cookbook)
-- [ ] **Day 3: MCP** — MCP tool design, descriptions, and configuration
+- [x] **Day 3: MCP** — MCP tool design, descriptions, and configuration
   - [x] [MCP introduction](https://modelcontextprotocol.io/introduction)
   - [-] [MCP in Claude — Anthropic docs](https://docs.anthropic.com/en/docs/build-with-claude/mcp)
-  - [ ] [MCP tools vs resources](https://modelcontextprotocol.io/docs/concepts/architecture)
-- [ ] **Day 4: Agent SDK** — Multi-agent orchestration — coordinator and subagents
-  - [ ] [Building with agents](https://docs.anthropic.com/en/docs/build-with-claude/building-effective-agents)
-  - [ ] [Agent SDK Python examples](https://github.com/anthropics/anthropic-sdk-python)
-  - [ ] [Multi-agent systems section](https://docs.anthropic.com/en/docs/build-with-claude/building-effective-agents#multi-agent-architectures)
+  - [x] [MCP tools vs resources](https://modelcontextprotocol.io/docs/concepts/architecture)
+- [x] **Day 4: Agent SDK** — Multi-agent orchestration — coordinator and subagents
+  - [-] [Building with agents](https://docs.anthropic.com/en/docs/build-with-claude/building-effective-agents)
+  - [-] [Agent SDK Python examples](https://github.com/anthropics/anthropic-sdk-python)
+  - [-] [Multi-agent systems section](https://docs.anthropic.com/en/docs/build-with-claude/building-effective-agents#multi-agent-architectures)
 - [ ] **Day 5: Claude Code** — CLAUDE.md hierarchy and slash commands
   - [ ] [Claude Code overview](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview)
   - [ ] [CLAUDE.md memory and hierarchy](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code)
