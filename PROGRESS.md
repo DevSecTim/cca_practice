@@ -19,14 +19,14 @@
   - [-] [Building with agents](https://docs.anthropic.com/en/docs/build-with-claude/building-effective-agents)
   - [-] [Agent SDK Python examples](https://github.com/anthropics/anthropic-sdk-python)
   - [-] [Multi-agent systems section](https://docs.anthropic.com/en/docs/build-with-claude/building-effective-agents#multi-agent-architectures)
-- [ ] **Day 5: Claude Code** — CLAUDE.md hierarchy and slash commands
-  - [ ] [Claude Code overview](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview)
-  - [ ] [CLAUDE.md memory and hierarchy](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code)
-  - [ ] [Slash commands and skills](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code#slash-commands)
-- [ ] **Day 6: Claude Code** — Plan mode, -p flag for CI/CD, and path-specific rules
-  - [ ] [Plan mode vs direct execution](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code#plan-mode)
-  - [ ] [Claude Code in CI/CD pipelines](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code#ci-cd)
-  - [ ] [Skills and context:fork](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code#skills)
+- [x] **Day 5: Claude Code** — CLAUDE.md hierarchy and slash commands
+  - [-] [Claude Code overview](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview)
+  - [x] [CLAUDE.md memory and hierarchy](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code)
+  - [x] [Slash commands and skills](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code#slash-commands)
+- [x] **Day 6: Claude Code** — Plan mode, -p flag for CI/CD, and path-specific rules
+  - [x] [Plan mode vs direct execution](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code#plan-mode)
+  - [-] [Claude Code in CI/CD pipelines](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code#ci-cd)
+  - [-] [Skills and context:fork](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code#skills)
 - [ ] **Day 7: Prompt Eng.** — JSON schemas, structured output, and few-shot prompting
   - [ ] [Structured output via tool use](https://docs.anthropic.com/en/docs/build-with-claude/tool-use#forcing-json-output)
   - [ ] [Few-shot prompting guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/few-shot)
