@@ -27,10 +27,10 @@
   - [x] [Plan mode vs direct execution](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code#plan-mode)
   - [-] [Claude Code in CI/CD pipelines](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code#ci-cd)
   - [-] [Skills and context:fork](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code#skills)
-- [ ] **Day 7: Prompt Eng.** — JSON schemas, structured output, and few-shot prompting
-  - [ ] [Structured output via tool use](https://docs.anthropic.com/en/docs/build-with-claude/tool-use#forcing-json-output)
-  - [ ] [Few-shot prompting guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/few-shot)
-  - [ ] [Message Batches API reference](https://docs.anthropic.com/en/api/message-batches)
+- [7] **Day 7: Prompt Eng.** — JSON schemas, structured output, and few-shot prompting
+  - [-] [Structured output via tool use](https://docs.anthropic.com/en/docs/build-with-claude/tool-use#forcing-json-output)
+  - [-] [Few-shot prompting guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/few-shot)
+  - [-] [Message Batches API reference](https://docs.anthropic.com/en/api/message-batches)
 
 ## Week 2 — Scenario Practice
 
