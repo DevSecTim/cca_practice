@@ -34,9 +34,9 @@
 
 ## Week 2 — Scenario Practice
 
-- [ ] **Day 8: Scenario** — Scenario 1 — Customer support agent deep dive
-  - [ ] [Agent SDK hooks — PostToolUse](https://docs.anthropic.com/en/docs/build-with-claude/tool-use#tool-use-hooks)
-  - [ ] [Exam guide — Scenario 1 and Q1–Q3](https://anthropic.skilljar.com/)
+- [x] **Day 8: Scenario** — Scenario 1 — Customer support agent deep dive
+  - [x] [Agent SDK hooks — PostToolUse](https://docs.anthropic.com/en/docs/build-with-claude/tool-use#tool-use-hooks)
+  - [x] [Exam guide — Scenario 1 and Q1–Q3](https://anthropic.skilljar.com/)
 - [ ] **Day 9: Scenario** — Scenario 3 — Multi-agent research system deep dive
   - [ ] [Subagent spawning and context passing](https://docs.anthropic.com/en/docs/build-with-claude/building-effective-agents)
   - [ ] [Exam guide — Scenario 3 and Q7–Q9](https://anthropic.skilljar.com/)
