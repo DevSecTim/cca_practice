@@ -1,6 +1,6 @@
 # CCA-F 14-Day Study Plan Progress Tracker
 
-> **Note:** This tracker is based on the official CCA-F 14-Day Study Plan. Target: 720+/1000.
+> **Note:** This tracker is based on the unofficial, community-created CCA-F 14-Day Study Plan (not published or endorsed by Anthropic). Target: 720+/1000.
 
 ## Week 1 — Foundations
 
