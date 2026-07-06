@@ -46,9 +46,9 @@
 - [x] **Day 11: Scenario** — Scenario 6 — Structured data extraction deep dive
   - [x] [Validation and retry loops](https://docs.anthropic.com/en/docs/build-with-claude/tool-use#handling-errors)
   - [-] [Exam guide — Scenario 6](https://anthropic.skilljar.com/)
-- [ ] **Day 12: Scenario** — Domain 5 — Context management and error propagation
-  - [ ] [Context window management](https://docs.anthropic.com/en/docs/build-with-claude/context-windows)
-  - [ ] [Exam guide — Domain 5 task statements 5.1 to 5.6](https://anthropic.skilljar.com/)
+- [x] **Day 12: Scenario** — Domain 5 — Context management and error propagation
+  - [x] [Context window management](https://docs.anthropic.com/en/docs/build-with-claude/context-windows)
+  - [-] [Exam guide — Domain 5 task statements 5.1 to 5.6](https://anthropic.skilljar.com/)
 - [ ] **Day 13: Full Review** — Gap-closing — weakest domains and edge cases
   - [ ] [tool_choice — auto vs any vs forced](https://docs.anthropic.com/en/docs/build-with-claude/tool-use#forcing-tool-use)
   - [ ] [Batch API — custom_id and limits](https://docs.anthropic.com/en/docs/build-with-claude/message-batches)
