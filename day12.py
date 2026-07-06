@@ -216,17 +216,36 @@ if __name__ == "__main__":
     print("GOOD response:", good_error_response())
     print("  coordinator ->", coordinator_decide(good_error_response()), "\n")
 
-    print("=== Point 4: escalation triggers ===")
+    print("=== Point 4: escalation triggers — sentiment x complexity matrix ===")
     cases = [
-        "I want to speak to a manager right now.",
-        "THIS IS RIDICULOUS!! My package never arrived and I'm furious, "
-        "I just want the refund your policy already promises for lost packages.",
-        "Can you make an exception and let me return this item after the "
-        "90-day window? I was hospitalized and couldn't get to a post office.",
+        # (label, message) — the four quadrants of sentiment x policy-complexity
+        (
+            "explicit request (always escalates regardless of the rest)",
+            "I want to speak to a manager right now.",
+        ),
+        (
+            "angry + simple/policy-covered -> should NOT escalate",
+            "THIS IS RIDICULOUS!! My package never arrived and I'm furious, "
+            "I just want the refund your policy already promises for lost packages.",
+        ),
+        (
+            "calm + policy gap -> SHOULD escalate",
+            "Can you make an exception and let me return this item after the "
+            "90-day window? I was hospitalized and couldn't get to a post office.",
+        ),
+        (
+            "calm + simple/policy-covered -> should NOT escalate",
+            "Hi, my order arrived damaged. Could I get a refund please? Thanks!",
+        ),
+        (
+            "angry + policy gap -> SHOULD escalate anyway",
+            "This is a joke. Your 'no exceptions' return policy is garbage and I "
+            "demand you make an exception for my custom order past the 30-day window.",
+        ),
     ]
-    for message in cases:
+    for label, message in cases:
         result = classify_escalation(message)
-        print(f"- \"{message[:70]}...\"\n  -> {result}\n")
+        print(f"- [{label}]\n  \"{message[:70]}...\"\n  -> {result}\n")
 
     print("Ambiguous customer match:")
     print(" ", resolve_customer_ambiguity(["CUST-001", "CUST-002"]))
